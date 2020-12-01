@@ -1,0 +1,33 @@
+#milktea{
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 100px;
+
+}
+
+
+.milk:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+h1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 180px;
+
+}
+
+body{
+  background-color: #afcecf;
+}
+
+img.milk{
+  height:400px;
+}
+
+img.smile{
+  height:50px;
+}
