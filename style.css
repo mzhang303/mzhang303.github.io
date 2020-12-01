@@ -7,6 +7,7 @@
 }
 
 
+
 .milk:hover{
   transform: scale(1.2);
   cursor: pointer;
@@ -17,11 +18,19 @@ h1{
   align-items: center;
   justify-content: center;
   padding-top: 180px;
+  font-size: 40px;
+
+}
+h2{
+  font-family: 'Roboto Mono', monospace;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
 body{
-  background-color: #afcecf;
+  background-color: #bfd9d9;
 }
 
 img.milk{
@@ -30,4 +39,8 @@ img.milk{
 
 img.smile{
   height:50px;
+}
+
+div:active{
+  
 }
