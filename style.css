@@ -1,8 +1,20 @@
+
+
+@keyframes spin {
+    from{
+      transform:rotate(0deg);
+    }
+    to{
+      transform:rotate(360deg);
+    }
+  }
+
+
 #milktea{
   display:flex;
   align-items: flex-end;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 80.9px;
 
 }
 
@@ -18,29 +30,57 @@ h1{
   align-items: center;
   justify-content: center;
   padding-top: 180px;
-  font-size: 40px;
+  font-size: 60px;
+  font-family: 'Rubik', sans-serif;
 
 }
 h2{
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Lato', sans-serif;
+  /*font-family: 'Roboto Mono', monospace;*/
   display:flex;
   align-items: center;
   justify-content: center;
+  animation-name: rotate;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration:2s;
+  font-size: 20px;
 
 }
 
 body{
   background-color: #bfd9d9;
+  margin-bottom: 0px;
 }
 
 img.milk{
   height:400px;
 }
 
-img.smile{
-  height:50px;
+
+img.matcha{
+  height:600px;
 }
 
-div:active{
-  
+#matchadrink{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+#options{
+  display:flex;
+  justify-content: space-between;
+}
+
+.home{
+  -webkit-animation: spin;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration:2s;
+}
+
+img.home{
+  height:120px;
 }
